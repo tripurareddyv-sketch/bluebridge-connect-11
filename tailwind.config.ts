@@ -22,6 +22,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          glow: "hsl(var(--primary-glow))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -47,6 +48,19 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        bridge: {
+          blue: "hsl(var(--bridge-blue))",
+          "blue-light": "hsl(var(--bridge-blue-light))",
+          "blue-dark": "hsl(var(--bridge-blue-dark))",
+        },
+        chat: {
+          sent: "hsl(var(--chat-bubble-sent))",
+          received: "hsl(var(--chat-bubble-received))",
+        },
+        connection: {
+          success: "hsl(var(--connection-success))",
+          pending: "hsl(var(--connection-pending))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +71,16 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        "gradient-primary": "var(--gradient-primary)",
+        "gradient-hero": "var(--gradient-hero)",
+        "gradient-card": "var(--gradient-card)",
+      },
+      boxShadow: {
+        "glow": "var(--shadow-glow)",
+        "card": "var(--shadow-card)", 
+        "message": "var(--shadow-message)",
       },
       borderRadius: {
         lg: "var(--radius)",
